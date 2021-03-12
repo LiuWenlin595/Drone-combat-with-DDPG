@@ -1,0 +1,74 @@
+#simple random config
+world_params:
+  height: 100
+  width: 100
+  drone_Xbound: 10
+  drone_Ybound: 10
+  enemy_Xbound: 3
+  enemy_Ybound: 3
+  num_drone: 3
+  num_enemy: 2
+  action_size: 4
+
+  drone_1:
+
+    static: False
+    x: 15
+    y: 30
+    vx: 2.0
+    vy: 0.0
+    radius: 2
+    name: "D1"
+    index: 0
+
+
+  drone_2:
+
+    static: False
+    x: 15
+    y: 50
+    vx: 2.0
+    vy: 0.0
+    radius: 2
+    name: "D2"
+    index: 1
+
+  drone_3:
+
+    static: False
+    x: 15
+    y: 70
+    vx: 2.0
+    vy: 0.0
+    radius: 2
+    name: "D3"
+    index: 2
+
+  enemy_1:
+  
+    x: 75
+    y: 35
+    static: False
+    vx: 1.0
+    vy: 0
+    angle: 0.75
+    radius: 4
+    reward: 1
+    name: "E1"
+
+  enemy_2:
+  
+    x: 75
+    y: 65
+    static: False
+    vx: 1.0
+    vy: 0
+    angle: 0.75
+    radius: 4
+    reward: 1
+    name: "E2"
+
+
+test_params:
+  epochs: 100
+  epoch_length: 500
