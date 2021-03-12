@@ -14,9 +14,9 @@ objects.py：无人机对象类的定义
 
 DDPG.py：DDPG算法以及执行train和test的main函数
 
-DQN.py：DQN算法，简单实现了算法，训练由其他同学完成
+// DQN.py：DQN算法，简单实现了算法，训练由其他同学完成
 
-TD3.py：TD3算法，简单实现了算法，训练由其他同学完成
+// TD3.py：TD3算法，简单实现了算法，训练由其他同学完成
 
 ### 文件夹：
 configs：配置文件包，里面有敌友无人机的初始化参数
@@ -113,6 +113,5 @@ obs，action，reward都没有做归一化
 4. 针对出现的三追一的问题做了一些处理：以0.5的概率更换两个敌方无人机输入的位置；如果三个无人机追击目标相同的话，绝对距离奖励减少一半。
 
 ## 输出样例及对应演示：
-见视频演示
-
+https://github.com/LiuWenlin595/Drone-combat-with-DDPG/blob/master/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.mp4
 
