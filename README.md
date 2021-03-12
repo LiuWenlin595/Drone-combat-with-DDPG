@@ -98,7 +98,7 @@ replay buffer设定为2e-6，没有采用PER。
 ## 强化学习相关：
 obs，action，reward都没有做归一化
 ### observation space：
-状态空间3*2+2*2=10，对应三个友方无人机的xy和两个敌方无人机的xy，因为三个agent共用一个网络，所以把每个step的采样分成三份，每次把需要执行动作的agent的位置放在最前面。
+状态空间3x2+2x2=10，对应三个友方无人机的xy和两个敌方无人机的xy，因为三个agent共用一个网络，所以把每个step的采样分成三份，每次把需要执行动作的agent的位置放在最前面。
 ### action space：
 输出-pi~pi的一个角度，控制agent移动的方向。
 ### reward：
