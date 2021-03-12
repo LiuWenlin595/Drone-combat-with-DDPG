@@ -113,5 +113,7 @@ obs，action，reward都没有做归一化
 4. 针对出现的三追一的问题做了一些处理：以0.5的概率更换两个敌方无人机输入的位置；如果三个无人机追击目标相同的话，绝对距离奖励减少一半。
 
 ## 输出样例及对应演示：
+见视频演示
+
 https://github.com/LiuWenlin595/Drone-combat-with-DDPG/blob/master/%E8%A7%86%E9%A2%91%E6%BC%94%E7%A4%BA.mp4
 
